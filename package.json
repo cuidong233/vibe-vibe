@@ -1,0 +1,35 @@
+{
+  "name": "vibe-vibe-tutorial",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.21.0",
+  "devDependencies": {
+    "@braintree/sanitize-url": "^7.1.1",
+    "@giscus/vue": "^3.1.1",
+    "@types/node": "^25.0.2",
+    "cytoscape": "^3.33.1",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "dayjs": "^1.11.19",
+    "debug": "^4.4.3",
+    "markdown-it-mathjax3": "^4.3.2",
+    "medium-zoom": "^1.1.0",
+    "mermaid": "^11.12.1",
+    "patch-package": "^8.0.1",
+    "vite-plugin-pwa": "^0.21.2",
+    "vitepress": "^1.6.4",
+    "vitepress-markdown-timeline": "^1.2.2",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vitepress-sidebar": "^1.33.0",
+    "vue": "^3.5.25"
+  }
+}
